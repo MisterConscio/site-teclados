@@ -1,0 +1,66 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.navbar {
+  background-color: #607D60;
+}
+
+.navbar-brand {
+  font-family: 'Share Tech', sans-serif;
+}
+
+#cabecalho .nav .nav-link.active {
+  background-color: #fff;
+  color: #607D60;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background-color: #C2FCC2;
+}
+
+.section-title {
+  font-family: 'Share Tech', sans-serif;
+}
+
+.section-title span,
+.text-colored {
+  color: #607D60;
+}
+
+#sobre-restaurante,
+#cardapio {
+  background-color: #C2FCC2;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+  background-color: #607D60;
+  color: #fff;
+}
+
+.nav-cardapio .nav-link {
+  color: #607D60;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 200px;
+  }
+}
